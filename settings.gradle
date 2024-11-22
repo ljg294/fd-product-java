@@ -1,3 +1,4 @@
 rootProject.name = 'product'
 
 include(":product-api-server")
+include(":product-domain")
