@@ -2,6 +2,9 @@ description = "api server module"
 
 dependencies {
 
+    implementation project(':product-domain')
+    implementation project(':product-common')
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'com.querydsl:querydsl-core'
